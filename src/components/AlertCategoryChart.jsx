@@ -51,12 +51,12 @@ const AlertCategoryChart = ({ data }) => {
               min: 0,
               max: 150,
               ticks: {
-                color: 'white', // Y-axis label color
+                color: 'white', 
               },
             },
             x: {
                 ticks: {
-                    color: 'white', // Y-axis label color
+                    color: 'white', 
                 },
             }
           },

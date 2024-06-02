@@ -66,7 +66,7 @@ const processData = (rawData) => {
             <AlertSeverityChart data={data.severityData}/>
           </div>
         </div>
-        <div className="h-full bg-[#1E263B] shadow-md rounded-md pt-8 md:pt-40 sm:mb-10">
+        <div className="h-full bg-[#1E263B] shadow-md rounded-md px-8 md:pt-40 sm:mb-10 rounded-b-md">
           <AlertCategoryChart data={data.categoryData}/>
         </div>
         <div className="pt-2 md:pt-40"></div> 
