@@ -67,7 +67,8 @@ const AlertCategoryChart = ({ data }) => {
                             boxWidth: 8,
                             boxHeight:8,
                             usePointStyle: true,
-                            pointStyle: "circle"
+                            pointStyle: "circle",
+                            color: "#ffffff"
                         }
                     },
                     
