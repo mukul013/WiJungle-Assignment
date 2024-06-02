@@ -48,6 +48,7 @@ const AlertCategoryChart = ({ data }) => {
         }}
         options={{
           responsive: true,
+          color: "#fffff",
           indexAxis: "y",
           scales: {
             y: {
@@ -62,7 +63,7 @@ const AlertCategoryChart = ({ data }) => {
                         labels: {
                             font: {
                                 size: 14,
-                                weight: 400
+                                weight: 400,
                             },
                             boxWidth: 8,
                             boxHeight:8,
