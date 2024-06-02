@@ -45,6 +45,16 @@ const SourceIpChart = ({ data }) => {
             y: {
               min: 0,
               max: 100,
+              ticks: {
+                    padding: 10,
+                    color: 'white'
+                  },
+            },
+            x: {
+                  ticks: {
+                    padding: 10,
+                    color: 'white'
+                  },
             },
           },
           maintainAspectRatio: false,
@@ -59,7 +69,8 @@ const SourceIpChart = ({ data }) => {
                             boxWidth: 8,
                             boxHeight:8,
                             usePointStyle: true,
-                            pointStyle: "circle"
+                            pointStyle: "circle",
+                            color: "white"
                         }
                     },
                     

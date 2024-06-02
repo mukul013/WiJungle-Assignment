@@ -26,10 +26,6 @@ ChartJS.register(
 const AlertCategoryChart = ({ data }) => {
    const processData = data.filter((obj) => {if (obj.count > 5) {return obj.category;}})
     
-    useEffect(() => {
-        ChartJS.defaults.color = '#FFFFFF'; 
-      }, []);
-    
   return (
     <div className="bg-[#1E263B] min-h-60">
       <Bar
@@ -54,7 +50,15 @@ const AlertCategoryChart = ({ data }) => {
             y: {
               min: 0,
               max: 150,
+              ticks: {
+                color: 'white', // Y-axis label color
+              },
             },
+            x: {
+                ticks: {
+                    color: 'white', // Y-axis label color
+                },
+            }
           },
           maintainAspectRatio: false,
           plugins: {

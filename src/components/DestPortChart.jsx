@@ -50,12 +50,14 @@ export const DestPortChart = ({data}) => {
                   min: 0,
                   max: 100,
                   ticks: {
-                    padding: 10, // Padding for y-axis labels
+                    padding: 10,
+                    color: 'white'
                   },
                 },
                 x: {
                   ticks: {
-                    padding: 10, // Padding for y-axis labels
+                    padding: 10,
+                    color: 'white'
                   },
                 },
               },
@@ -71,7 +73,8 @@ export const DestPortChart = ({data}) => {
                             boxWidth: 8,
                             boxHeight:8,
                             usePointStyle: true,
-                            pointStyle: "circle"
+                            pointStyle: "circle",
+                            color: 'white'
                         }
                     },
                     
